@@ -1,0 +1,16 @@
+body {
+  background: url("../bkg2.jpg") repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  border: 4px solid #fff;
+  border-bottom: transparent;
+  background: url("../bkg.png") repeat;
+  display: block;
+
+  box-shadow: 0 0 10px #fff;
+}
