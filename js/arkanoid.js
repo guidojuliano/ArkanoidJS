@@ -15,13 +15,13 @@ let x = canvas.width / 2; //Posición inicial de la bola
 let y = canvas.height - 30; //Posición inicial de la bola
 
 //Velocidad de la bola
-let dx = 0.1; //Velocidad horizontal
-let dy = -0.1; //Velocidad vertical
+let dx = 1.5; //Velocidad horizontal
+let dy = -1.5; //Velocidad vertical
 
 // Variables de la pala
 const paddleHeight = 8;
 const paddleWidth = 48;
-const PADDLE_SENSITIVITY = 2; //Sensibilidad de la pala
+const PADDLE_SENSITIVITY = 4; //Sensibilidad de la pala
 
 //Posición inicial de la pala
 let paddleX = (canvas.width - paddleWidth) / 2;
